@@ -1,0 +1,33 @@
+Burada ki kod videoyu izlemeden kendim yaptığım kod.
+hatalarla dolu :)
+
+e ödevi eklemiş hali olucak.
+
+
+
+
+
+package giris;
+import java.util.Scanner ;
+
+
+
+public class main {
+    public static void main(String[] args) {
+        Scanner inp = new Scanner(System.in);
+
+        // Değişkenleri belirledik
+        double fiyat;
+
+        System.out.print("Lütfen Hesaplamak İstediğiniz Tutarı Giriniz:");
+        fiyat = inp.nextDouble();
+
+        // KDV hesaplaması
+        double hesap = fiyat * 1.18;
+        System.out.println("Kdv'siz Tutar:"+fiyat);
+        System.out.println("Kdv'li tutar:"+hesap);
+        System.out.println("Kdv tutarı:%"+18);
+
+
+    }
+}
